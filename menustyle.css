@@ -1,0 +1,152 @@
+body{
+    /*background-color: rgb(138, 96, 76);*/
+    
+    color:rgb(255, 255, 255);
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.page-header{
+    font-family: monospace;
+    display: inline-block;  
+    vertical-align: baseline;  
+    margin-top: 0px;  
+    margin-bottom: 20px;  
+    font-size: 3.1rem;  
+    font-weight: 400;  
+}
+.big {
+	position:absolute;
+	top: 0vh;
+  left: 0vh;
+	z-index: -1;
+	opacity: 1;
+ /*	max-width:204vh;*/
+  max-height:200%;  
+  
+}
+
+
+
+
+
+
+
+
+#menu{
+  background-color: rgb(255, 255, 255);
+  opacity: 0.7;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
+
+
+
+.container {
+
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .section-header {  
+      color: #573305;  
+     
+      font-weight: 400;  
+      font-size: 1.5rem;  
+      margin-top: 30px;  
+      text-align: center;
+      
+  }
+  table {  
+    width: 50%;  
+    border-spacing: 0px;  
+    }    
+    td {  
+    text-align: center;  
+    padding: 15px 15px;  
+    }    
+    .text-left { text-align: left; }    
+    th {  
+    color: #313131;  
+    font-weight: 400;  
+    font-size: 1.2rem;  
+    padding-left: 15px;  
+    padding-right: 15px;  
+    } 
+    
+       
+    td{
+      color:rgb(100, 37, 0)
+    }
+    .top{
+      
+      color: #313131;
+      padding-left: 220px;
+    }
+    .icecream{
+      display: flex;
+      margin-left: 70px;
+      margin-right: auto;  
+      
+    }
+    /*.cone{
+      padding-left: 100px;
+      
+    }*/
+    .jars{
+      display:flex;
+      margin-left: 70px;
+      padding-bottom: 165px;
+     
+      
+    }
+    .jar{
+      padding-left: 70px;
+    }
+
+    tr:nth-child(even) { background-color: #f3deb6; }    
+    tr.tr-header {  
+    background-color: #cfb18f;  
+    height: 50px;  
+    }    
+    .section {  
+    padding-top: 20px;  
+    padding-left: 20px;  
+    padding-right: 20px;  
+    padding-bottom: 30px;  
+    }    
+    header {
+      justify-content: space-evenly;
+      display: flex;
+      width: 90%;
+      height: 10vh;
+      align-items: center;
+    }
+    
+    
+    .nav-links{
+      display: flex;
+    }
+    nav {
+      flex: 1;
+    }
+    .nav-links {
+      justify-content:space-around;
+      list-style: none;
+      
+    }
+    .nav-link {
+      color: #ffffff;
+      font-size: 22px;
+      text-decoration: none;
+    }
+    .nav-link:hover{
+      color:black;
+    }

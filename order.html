@@ -1,0 +1,164 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order form</title>
+    <link href="orderstyle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="text-color page-header-change">
+        <h1 class="page-header">SCOOPS AND CONES</h1>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="first.html">Home</a></li>
+          <li><a class="nav-link" href="menu.html">Menu</a></li>
+          <li><a class="nav-link" href="order.html">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="orderform"><h1>ORDER</h1></div>
+    <div class ="mane"><form>
+      <div id="name">
+        <h2 class="name">Name</h2>
+        <input class="firstname" type="text" name="first_name" /><br />
+      </div>
+      <h2 class="name">Phone</h2>
+      <input class="code" type="text" name="area_code" />
+      <label class="area-code">Area code</label>
+      <input class="number" type="text" name="phone" />
+      <label class="phone-number">Phone Number</label><br />
+      <h2 class="name">Email</h2>
+      <input class="email" type="email" name="email">
+      <h2 class="name">Address</h2>
+      <textarea class = "address" name="Address" cols="20" rows="2"></textarea>
+      
+      <!--<fieldset>
+         <legend>SCOOPS</legend>
+         <label>vanilla <input type="checkbox" name ="scoops"></label>
+         <label>Strawberry <input type="checkbox" name ="scoops"></label>
+         <label>Blackcurrent <input type="checkbox" name ="scoops"></label>
+         <label>Salty Caramel <input type="checkbox" name ="scoops"></label>
+     </fieldset>-->
+      <h2 class="name">MENU</h2>
+      <div class="menu"><table><tr>
+        <tr>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <!--<th>Quantity</th>-->
+        </tr>
+
+        <td class="option2">Scoops</td>
+        <td>
+          <select class="option" name="subject">
+            <option disabled="disabled" selected="selected">Classic Scoops</option>
+            <option>Vanilla </option>
+            <option>Strawberry</option>
+            <option>Black current </option>
+            <option>Salty Caramell</option>
+          </select>
+        </td>
+        <td>
+          <select class="option" name="subject">
+            <option disabled="disabled" selected="selected">Cups</option>
+            <option>Regular</option>
+            <option>Medium</option>
+            <option>Large </option>
+            
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="option2">Cones</td>
+        <td>
+          <select class="option" name="subject" >
+            <option disabled="disabled" selected="selected">--Cones</option>
+            <option>Pistachio</option>
+            <option>Raspberry</option>
+            <option>Almond fudge</option>
+            <option>Waffle cone</option>
+          </select>
+          <td>
+            <select class="option" name="subject">
+              <option disabled="disabled" selected="selected">Scoop Layer</option>
+              <option>Junior</option>
+              <option>Double</option>
+              <option>Triple </option>
+              
+            </select>
+          </td>
+        </td>
+      </tr>
+      <tr>
+        <td class = "option2">Falooda</td>
+        <td>
+          <select class="option" name="subject">
+            <option disabled="disabled" selected="selected">--faloodas</option>
+            <option>Royal Nuts</option>
+            <option>Kesar pista</option>
+            <option>Fruit punch</option>
+            
+          </select>
+          <td>
+            <select class="option" name="subject">
+              <option disabled="disabled" selected="selected">Size</option>
+              <option>Regular</option>
+              <option>Medium</option>
+              <option>Large </option>
+              
+            </select>
+          </td>
+        </td>
+      </tr>
+      <tr>
+        <td class = "option2">Jars</td>
+        <td>
+          <select class="option" name="subject" >
+            <option disabled="disabled" selected="selected">-Jars</option>
+            <option>Kitkat crunch</option>
+            <option>Rainbow Shake</option>
+            <option>Rocher king</option>
+            
+          </select>
+          <td>
+            <select class="option" name="subject">
+              <option disabled="disabled" selected="selected">Size</option>
+              <option>Regular</option>
+              <option>Medium</option>
+              
+              
+            </select>
+          </td>
+        </td>
+      </tr>
+    </table></div>
+      
+    <h2 id="confirm">Confirm</h2>
+    <label class="radio">
+        <input class="radio-one" type="radio"  name="radio">
+        <span class="checkmark"></span>
+        Yes
+    </label>
+    <label class="radio">
+      <input class="radio=two" type="radio" name="radio">
+      <span class="checkmark"></span>
+      No
+      </label><br><br>
+    
+    <div class="button2">
+      <button type="submit">Place Order</button>
+      <button type="reset">Cancel</button>
+    </div>
+    
+      
+      
+      
+    </form>
+  </div>
+    
+    <img class = "big2" src="yes.jpg">
+  </body>
+</html>
